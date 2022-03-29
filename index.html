@@ -51,78 +51,137 @@
 
 				<!-- Main -->
 					<div id="main">
+							
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://github.com/stevenjacoballen/Flight_Delays_ML/blob/main/Predict_Flight_Delays.ipynb">Machine Learning<br/><br/>
-									Predicting Flight Delays
-									</a></h2>
-									<p>
+						<!-- Posts -->
+							<section class="posts">
+								
+<!-- FIRST ARTICLE-->
+									<article>
+										<header>
+											<h2><a href="https://github.com/stevenjacoballen/House_Price_Predictor/blob/main/Housing_price_predictor.ipynb">ML | Regression<br /><br />
+												Predicting House Prices</a></h2>
+										</header>
+										<a href="https://github.com/stevenjacoballen/House_Price_Predictor/blob/main/Housing_price_predictor.ipynb" class="image fit"><img src="images/seattle.jpg" alt="" /></a>
+										
 										<style>
 											div.myDivElement{
 												text-align:left;
 											}
 											div.myDivElement ul ol li{
-											   display:inline;
-											 }
+											display:inline;
+											}
 										</style>
 										<div class="myDivElement">
-											<p>This project attempts to determine how accurately Delta Airlines flight delays can be predicted using airline performance and weather data. Recall will serve as the primary accuracy metric.	
-										<h3>Outline</h3>
-										<ol>
-										<li><b>Import and Clean Data:</b> Two datasets consisting of airline performance and weather data.</li>
-										<li><b>PostgreSQL Database:</b> Create database from the cleaned datasets above, then query database for finalized project dataset.
-											Exploratory Data Analysis.</li>
-										<li><b>Machine Learning:</b> Scale data and train the two following models for binary classification (delayed flight or not delayed) to establish baseline performance. Both models will also undergo hyperparameter tuning and will have run-times and performance tracked.
-											<ul><ul>
-											<li>Logistic Regression</li>
-											<li>Gradient Boosting Classifier</li>
-											</ul></ul>
-										<li  style="margin-top:-30px;"><b>Principal Component Analysis:</b> Conduct PCA on data set to reduce dimensionality and ideally, increase model performance/efficiency.</li>
-										<li><b>Retrain Models:</b> Retrain both models after PCA using the optimally tuned hyperparameters.</li>
-										<li><b>Results, Observations, Conclusion:</b> Evaluate baseline, tuned, and post-PCA performance for both ML models.</li></p>
-										</ol>
-								</header>
-								<a href="https://github.com/stevenjacoballen/Flight_Delays_ML/blob/main/Predict_Flight_Delays.ipynb" class="image main"><img src="images/DeltaPython.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/stevenjacoballen/Flight_Delays_ML/blob/main/Predict_Flight_Delays.ipynb" class="button large">View Project</a></li>
-								</ul>
-							</article>
+										<p> This Project utilizes Regression models to predict housing prices in the Seattle area based on sales data from 2014-2015. The model that performs the best will be deployed as a web app with Flask on an AWS EC2 instance.
+																			
+											<h3>Outline</h3>
+												<ol>
+												<li><b>EDA & Data Cleaning</b>	
+												<li><b>Machine Learning:</b> 
+													<ul>					
+													<li>Linear Regression
+													<li>Random Forest 
+													<li>Support Vector Machine
+													<li>XGboost											
+													</ul>
+												<li  style="margin-top:-30px;"><b>Preliminary Results</b></li>
+												<li><b>Log-Transform Price & Retrain Best Model</b></li>
+												<li><b>Conclusion</b></li>
+												<li><b>Export Model for Deployment</b></li></p>
+												</ol>
+											
+											
+											
 
-						<!-- Posts -->
-							<section class="posts">
+										<ul class="actions special">
+											<li><a href="https://github.com/stevenjacoballen/House_Price_Predictor/blob/main/Housing_price_predictor.ipynb" class="button">View Project</a></li>
+										</ul>
+										<ul class="actions special">
+											<li><a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/" class="button">View Web App</a></li>
+										</ul>
+									</article>
+
+
+<!-- SECOND ARTICLE-->
+									<article>
+									<h2><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb">ML | Classification<br/><br/>
+										Predicting Flight Delays
+										</a></h2>
+										<a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb" class="image fit"><img src="images/DeltaPlane.jpg" alt="" /></a>
+									<ul class="actions special">
+										<p>
+											<style>
+												div.myDivElement{
+													text-align:left;
+												}
+												div.myDivElement ul ol li{
+												   display:inline;
+												 }
+											</style>
+											<div class="myDivElement">
+												<p>This project attempts to determine how accurately Delta Airlines flight delays can be predicted.	
+											<h3>Outline</h3>
+											<ol>
+											<li><b> &nbsp;&nbsp;&nbsp;&nbsp;Data Cleaning</b>
+											<li><b>Create and query PostgreSQL Database</b> 
+											<li><b>Exploratory Data Analysis</b></li>	
+											<li><b>Machine Learning:</b> 
+												<ul>					
+												<li> &nbsp;&nbsp;&nbsp;&nbsp;Logistic Regression 
+												<li>Gradient Boosting 
+												<li>Random Forest 
+												<li>Support Vector Machine												
+													
+												</ul>
+											<li  style="margin-top:-30px;"><b>Principal Component Analysis</b></li>
+											<li><b>Hypterparamer Tuning</b></li>
+											<li><b>Conclusion</b></li></p>
+											</ol>
+									</header>
+									<ul class="actions special">
+											<li><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb" class="button large">View Project</a></li>
+									</ul>
+								</article>
+
+
+
+
+
+
+<!-- THIRD ARTICLE-->
 								<article>
 									<header>
 										<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2">Tableau<br /><br />
 										Delta Airlines Flight Performance </a></h2>
 									</header>
-									<a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="image fit"><img src="images/DeltaDash.png" alt="" /></a>
-									<p>	This dashboard features five maps at the top, one for each of Delta Airlines’ busiest airports. These maps display each airport’s top N destinations within a selected date range. <br /><br />
+									<a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="image fit"><img src="images/DeltaPlane2.jpg" alt="" /></a>
+									<p>	Created from the finalized dataset from "Flight Delays" project above, this dashboard features five maps at the top, one for each of Delta Airlines’ busiest airports. These maps display each airport’s top N destinations within a specific date range. Top N destinations and the date range can both be modified by the user. <br /><br />
 										
-										The main body of the dashboard consists of charts and KPI data points that visualize the aggregate performance of the top five airports within a selected date range. The use of average lines and conditional formatting assisst the user in quickly identifying potential problems within the operation.<br /><br />
-
-										This dashboard was created from the finalized dataset from the Predicting Flight Delays project (above).</p>
+										The main body of the dashboard consists of charts and KPI data points that visualize the aggregate performance of the top five airports within the selected date range. The use of average lines and conditional formatting assisst the user in quickly identifying potential problems within the operation.<br /><br /></p>
 									<ul class="actions special">
 										<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="button">View Dashboard</a></li>
 									</ul>
 								</article>
+
+
+
+<!-- FOURTH ARTICLE-->
 								<article>
 									<header>
 										<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">SQL + Tableau<br /><br />
 										COVID Tracker</a></h2>
 									</header>
-									<a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="image fit"><img src="images/COVID_tracker_dashboard.png" alt="" /></a>
-									<p> This interactive COVID Tracker dashboard allows the user to view several high-level data points about a selected country, in addition to charts that visually compare different aspects of the data set, such as: monthly deaths compared to monthly cases, monthly deaths compared to the number of people getting fully vaccinated each month, and more.<br /><br />
+									<a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
+									<p> This interactive COVID Tracker dashboard allows the user to view several high-level data points about a selected country, in addition to charts that visually compare different aspects of the data set such as monthly deaths compared to monthly cases, etc.<br /><br />
 										
-										<b>Tableau Dashboard:</b> <a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">Click Here</a><br />
-										<b>SQL Queries:</b> <a href="https://github.com/stevenjacoballen/CovidTracker/blob/main/SQL_Portfolio_Project.sql">Click Here</a><br />
 										<b>SQL Skills Used:</b> Joins, CTE’s, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types<br /><br />
-										
-										This dashboard was created from splitting a dataset that was gathered from <a href="https://ourworldindata.org/covid-deaths">https://ourworldindata.org/covid-deaths</a>. The datasets were imported Microsoft SQL Server Management Studio as two separate tables, where several views were created from SQL queries. These views were then imported into Tableau to serve as the data sources for the different components of the Tableau dashboard.
-
+									
 									<ul class="actions special">
 										<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="button">View Dashboard</a></li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/stevenjacoballen/CovidTracker/blob/main/SQL_Portfolio_Project.sql" class="button">View Queries</a></li>
 									</ul>
 								</article>
 							</section>
