@@ -15,17 +15,13 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+			<div id="wrapper">
+				<header id="header">
+					<a href="index.html" class="logo">Steven Allen Portfolio</a>
+				</header>
 
 				<!-- Intro -->
-					<div id="intro">
-						<h1>Steven Allen<br />
-						Portfolio
-						</h1>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+				
 
 				<!-- Header 
 					<header id="header">
@@ -36,9 +32,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
+							<li class="active"><a href="index.html">Tableau | Python</a></li>
+							<li><a href="generic.html">Machine Learning</a></li>
 							<!--
-							<li><a href="generic.html">Generic Page</a></li>
 							<li><a href="elements.html">Elements Reference</a></li>
 							-->
 							
@@ -59,11 +55,11 @@
 <!-- FIRST ARTICLE-->
 								<article>
 									<header>
-										<h2><a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py">Python + Tableau<br /><br />
+										<h2><a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py"> Tableau + Python  <br /><br />
 										Automation </a></h2>
 									</header>
 									<a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py" class="image fit"><img src="images/SLC_weather_tableau.png" alt="" /></a>
-									<p>	This project leverages Python scripting to automate the process of updating and publishing a Tableau dashboard with data scraped from a web page every hour.
+									<p>	This project leverages Python scripting to automate the process of updating and publishing a Tableau dashboard with temperature data scraped from a web page every hour.
 									<p> A brief video can also be viewed, showing the final stage of the script's execution - updating Tableau with PyAutoGUI.
                                     
 									<p> </p>
@@ -105,7 +101,49 @@
 									
 								</article>
 
+
 <!-- SECOND ARTICLE-->
+								<article>
+									<header>
+										<h2><a href="https://github.com/stevenjacoballen/WorldMap_TabPy/blob/main/WorldMap_TabPy_Writeup.md"> Tableau + Python  <br /><br />
+										TabPy </a></h2>
+									</header>
+									<a href="https://github.com/stevenjacoballen/WorldMap_TabPy/blob/main/WorldMap_TabPy_Writeup.md" class="image fit"><img src="images/world.png" alt="" /></a>
+									<p> When a user clicks on a country, The country's capital, population, area(size), continent, and subregion are displayed. This information is not sourced locally, however.
+									<p> TabPy is utilized to allow Python scripts to execute in calculated fields, retreiving the country's data from an external API (REST Countries).
+									<p>
+									
+									<p> </p>
+									
+										<style>
+											div.myDivElement{
+												text-align:left;
+											}
+											div.myDivElement ul ol li{
+											display:inline;
+											}
+										</style>
+										<div class="myDivElement">			
+
+									<p> <h3> When user selects a country: </h3>
+												<ol>
+												<li>Each calculated field sends a call to the API, passing the selected country as an argument.</li>	
+												<li>JSON responses are returned.</li>	
+												<li>JSON responses are parsed for the relevant data, i.e.- population.</li>
+												<li>Dashboard dynamically updates the calculated fields.</li>
+												</ol>
+															
+										
+										<br />
+									<ul class="actions special">
+										<li><a href="https://github.com/stevenjacoballen/WorldMap_TabPy/blob/main/WorldMap_TabPy_Writeup.md" class="button">View Project</a></li>
+									</ul>
+									
+									
+									
+								</article>
+
+<!-- THIRD ARTICLE-->
 
 								<article>
 									<header>
@@ -122,10 +160,10 @@
 								</article>
 
 
-<!-- THIRD ARTICLE-->
+<!-- FOURTH ARTICLE-->
 									<article>
 										<header>
-											<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">SQL + Tableau<br /><br />
+											<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">Tableau + SQL<br /><br />
 											COVID Tracker</a></h2>
 										</header>
 										<a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
@@ -144,137 +182,6 @@
 
 								
 
-
-
-<!-- FOURTH ARTICLE-->
-									<article>
-										<header>
-											<h2><a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/">ML Regression | Web App<br /><br />
-												Predicting House Prices</a></h2>
-										</header>
-										<a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/" class="image fit"><img src="images/seattle.jpg" alt="" /></a>
-										
-										<style>
-											div.myDivElement{
-												text-align:left;
-											}
-											div.myDivElement ul ol li{
-											display:inline;
-											}
-										</style>
-										<div class="myDivElement">
-										<p> This Project utilizes Regression models to predict housing prices in the Seattle area based on sales data from 2014-2015. The best performing model was deployed as a web app on an AWS EC2 instance.
-																			
-											<h3>Outline</h3>
-												<ol>
-												<li><b>EDA & Data Cleaning</b>	
-												<li><b>Machine Learning:</b> 
-													<ul>					
-													<li>Linear Regression
-													<li>Random Forest 
-													<li>Support Vector Machine
-													<li>XGboost											
-													</ul>
-												<li  style="margin-top:-30px;"><b>Preliminary Results</b></li>
-												<li><b>Log-Transform Price & Retrain Best Model</b></li>
-												<li><b>Conclusion</b></li>
-												<li><b>Export Model for Deployment</b></li></p>
-												</ol>
-											
-											
-											
-										<ul class="actions special">
-											<li><a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/" class="button">View Web App</a></li>
-										</ul>
-										<ul class="actions special">
-											<li><a href="https://github.com/stevenjacoballen/House_Price_Predictor/blob/main/Housing_price_predictor.ipynb" class="button">View Project</a></li>
-										</ul>
-										
-									</article>
-
-
-
-
-
-<!-- FIFTH ARTICLE-->
-									<article>
-									<h2><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb">ML Classification<br/><br/>
-										Predicting Flight Delays
-										</a></h2>
-										<a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb" class="image fit"><img src="images/DeltaPlane.jpg" alt="" /></a>
-									<ul class="actions special">
-										<p>
-											<style>
-												div.myDivElement{
-													text-align:left;
-												}
-												div.myDivElement ul ol li{
-												   display:inline;
-												 }
-											</style>
-											<div class="myDivElement">
-												<p>This project utilizes 2019 flight and weather data to classify delayed flights within Delta Airlines. The flight data is sourced from the Bureau of Transportation Statistics (BTS), and the weather data is sourced from the National Oceanic And Atmospheric Administration (NOAA).
-											<h3>Outline</h3>
-											<ol>
-											<li><b> &nbsp;&nbsp;&nbsp;&nbsp;Data Cleaning</b>
-											<li><b>Create and query PostgreSQL Database</b> 
-											<li><b>Exploratory Data Analysis</b></li>	
-											<li><b>Machine Learning:</b> 
-												<ul>					
-												<li> &nbsp;&nbsp;&nbsp;&nbsp;Logistic Regression 
-												<li>Gradient Boosting 
-												<li>Random Forest 
-												<li>Support Vector Machine												
-													
-												</ul>
-											<li  style="margin-top:-30px;"><b>Principal Component Analysis</b></li>
-											<li><b>Hypterparamer Tuning</b></li>
-											<li><b>Conclusion</b></li></p>
-											</ol>
-									</header>
-									<ul class="actions special">
-											<li><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb" class="button large">View Project</a></li>
-									</ul>
-								</article>
-
-
-
-<!-- SIXTH ARTICLE-->
-								<article>
-									<header>
-										<h2><a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb"> ML K-Means Clustering <br /><br />
-											Customer Segmentation</a></h2>
-									</header>
-									<a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb" class="image fit"><img src="images/Mall.jpg" alt="" /></a>
-									
-									<style>
-										div.myDivElement{
-											text-align:left;
-										}
-										div.myDivElement ul ol li{
-										display:inline;
-										}
-									</style>
-									<div class="myDivElement">
-									<p> This project utilizes K-Means clustering to perform customer segmentation on a dataset containing information about the customers of a mall.
-									
-										<h3>Outline</h3>
-											<ol>
-											<li><b>Exploratory Data Analysis</b>
-
-											<li><b>K-Means Clustering</b> 
-											<li><b>Cluster Analysis</b></li>
-											<li><b>Conclusion</b></li>
-											</ol>
-										
-										
-										
-									<ul class="actions special">
-										<li><a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb" class="button">View Project</a></li>
-									</ul>
-								
-									
-								</article>
 
 							</section>
 
