@@ -55,11 +55,101 @@
 
 						<!-- Posts -->
 							<section class="posts">
-								
+
 <!-- FIRST ARTICLE-->
+								<article>
+									<header>
+										<h2><a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py">Python + Tableau<br /><br />
+										Automation </a></h2>
+									</header>
+									<a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py" class="image fit"><img src="images/SLC_weather_tableau.png" alt="" /></a>
+									<p>	This project leverages Python scripting to automate the process of updating and publishing a simple Tableau dashboard with data scraped from a web page every hour.
+									<p> A brief video can also be viewed, showing the final stage of the script's execution - updating Tableau with PyAutoGui.
+                                    
+									<p> </p>
+						            
+										<style>
+											div.myDivElement{
+												text-align:left;
+											}
+											div.myDivElement ul ol li{
+											display:inline;
+											}
+										</style>
+										<div class="myDivElement">			
+
+									<p> <h3> Script Process & Libraries Used </h3>
+												<ol>
+												<li>Hourly execution of script (crontab)</lil>	
+												<li>Request DarkSky.net website (Requests)</li>	
+												<li>Scrape current temperature (Regex & Beautiful Soup)</li>
+												<li>Write data to Excel File (Openpyxl))</li> 
+												<li>Update Tableau & Publish (pyautogui)</li>
+													<ul>					
+														<li>Open Tableau</li>
+														<li>Refresh Data Connection</li>
+														<li>Save/Publish to Tableau Public</li>
+														<li>Close web browser and Tableau</li> 										
+													</ul>
+												</ol>
+															
+										
+										<br />
+									<ul class="actions special">
+										<li><a href="https://github.com/stevenjacoballen/PythonTableauAutomation/blob/main/PythonTableauAutomation.py" class="button">View Project</a></li>
+									</ul>
+									
+									<ul class="actions special">
+										<li><a href="https://youtu.be/ijwauC4oLHU" class="button" target="_blank" rel="noopener noreferrer">View Video</a></li>
+									</ul>
+									
+								</article>
+
+<!-- SECOND ARTICLE-->
+
+								<article>
+									<header>
+										<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2">Tableau<br /><br />
+										Delta Flight Performance </a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="image fit"><img src="images/DeltaPlane2.jpg" alt="" /></a>
+									<p>	Created from the finalized dataset from "Flight Delays" project above, this dashboard features five maps at the top, one for each of Delta Airlines’ busiest airports. These maps display each airport’s top N destinations within a specific date range. Top N destinations and the date range can both be modified by the user. <br /><br />
+										
+										The main body of the dashboard consists of charts and KPI data points that visualize the aggregate performance of the top five airports within the selected date range. The use of average lines and conditional formatting assisst the user in quickly identifying potential problems within the operation.<br /><br /></p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="button">View Dashboard</a></li>
+									</ul>
+								</article>
+
+
+<!-- THIRD ARTICLE-->
 									<article>
 										<header>
-											<h2><a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/">Regression | Web App<br /><br />
+											<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">SQL + Tableau<br /><br />
+											COVID Tracker</a></h2>
+										</header>
+										<a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
+										<p> This interactive COVID Tracker dashboard allows the user to view several high-level data points about a selected country, in addition to charts that visually compare different aspects of the data set such as monthly deaths compared to monthly cases, etc.<br /><br />
+											
+											<b>SQL Skills Used:</b> Joins, CTE’s, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types<br /><br />
+										
+										<ul class="actions special">
+											<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="button">View Dashboard</a></li>
+										</ul>
+										<ul class="actions special">
+											<li><a href="https://github.com/stevenjacoballen/CovidTracker/blob/main/SQL_Portfolio_Project.sql" class="button">View Queries</a></li>
+										</ul>
+									</article>
+									
+
+								
+
+
+
+<!-- FOURTH ARTICLE-->
+									<article>
+										<header>
+											<h2><a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/">ML Regression | Web App<br /><br />
 												Predicting House Prices</a></h2>
 										</header>
 										<a href="http://ec2-50-17-105-101.compute-1.amazonaws.com/" class="image fit"><img src="images/seattle.jpg" alt="" /></a>
@@ -106,9 +196,9 @@
 
 
 
-<!-- SECOND ARTICLE-->
+<!-- FIFTH ARTICLE-->
 									<article>
-									<h2><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb">Classification<br/><br/>
+									<h2><a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb">ML Classification<br/><br/>
 										Predicting Flight Delays
 										</a></h2>
 										<a href="https://github.com/stevenjacoballen/Flight_Delays/blob/main/Predict_Flight_Delays.ipynb" class="image fit"><img src="images/DeltaPlane.jpg" alt="" /></a>
@@ -149,11 +239,11 @@
 
 
 
-<!-- THIRD ARTICLE-->
+<!-- SIXTH ARTICLE-->
 								<article>
 									<header>
-										<h2><a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb"> K-Means Clustering <br /><br />
-											Mall Customer Segmentation</a></h2>
+										<h2><a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb"> ML K-Means Clustering <br /><br />
+											Customer Segmentation</a></h2>
 									</header>
 									<a href="https://github.com/stevenjacoballen/Mall_Customer_Segmentation/blob/main/Clustering.ipynb" class="image fit"><img src="images/Mall.jpg" alt="" /></a>
 									
@@ -186,43 +276,11 @@
 									
 								</article>
 
-
-<!-- FOURTH ARTICLE-->
-								<article>
-									<header>
-										<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2">Tableau<br /><br />
-										Delta Airlines Flight Performance </a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="image fit"><img src="images/DeltaPlane2.jpg" alt="" /></a>
-									<p>	Created from the finalized dataset from "Flight Delays" project above, this dashboard features five maps at the top, one for each of Delta Airlines’ busiest airports. These maps display each airport’s top N destinations within a specific date range. Top N destinations and the date range can both be modified by the user. <br /><br />
-										
-										The main body of the dashboard consists of charts and KPI data points that visualize the aggregate performance of the top five airports within the selected date range. The use of average lines and conditional formatting assisst the user in quickly identifying potential problems within the operation.<br /><br /></p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/DeltaAirlinesFlightPerformance-Top5OriginAirports/Dashboard2" class="button">View Dashboard</a></li>
-									</ul>
-								</article>
-
-
-
-<!-- FIFTH ARTICLE-->
-								<article>
-									<header>
-										<h2><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2">SQL + Tableau<br /><br />
-										COVID Tracker</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
-									<p> This interactive COVID Tracker dashboard allows the user to view several high-level data points about a selected country, in addition to charts that visually compare different aspects of the data set such as monthly deaths compared to monthly cases, etc.<br /><br />
-										
-										<b>SQL Skills Used:</b> Joins, CTE’s, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types<br /><br />
-									
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2" class="button">View Dashboard</a></li>
-									</ul>
-									<ul class="actions special">
-										<li><a href="https://github.com/stevenjacoballen/CovidTracker/blob/main/SQL_Portfolio_Project.sql" class="button">View Queries</a></li>
-									</ul>
-								</article>
 							</section>
+
+
+
+
 
 						<!-- Footer -->
 							<!--
